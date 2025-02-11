@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="rules_array">
+        <item>Odd</item>
+        <item>Even</item>
+        <item>Prime</item>
+        <item>Fibonacci</item>
+    </string-array>
+
+    <string name="app_name">Fininfocom</string>
+</resources>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/ruleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/rules_array"
+        android:padding="8dp"
+        android:textSize="18sp"
+
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/numberGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ruleSpinner"
+        android:numColumns="10" />
+
+</RelativeLayout>
